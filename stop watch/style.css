@@ -1,0 +1,37 @@
+body{
+    background-color: #EFF1F3;
+}
+#main{
+    background-color: white;
+    width: 350px;
+    height: 530px;
+    text-align: center;
+    box-shadow: 2px 2px 10px 1px;
+    border: 6px solid #D7B73F;
+}
+h1{
+    font-size: 70px;
+}
+.btn-success{
+    background-color: #D7B73F;
+    border-color: #D7B73F;
+}
+.btn-success:hover{
+    background-color: black !important;
+}
+#data{
+    height: 300px;
+    overflow: auto;
+}
+.fixesSize{
+    width: 90px;
+}
+#data>p{
+    font-size: 20px;
+}
+h4{
+    color: #D7B73F;
+}
+button:disabled{
+    background-color: black !important;
+}

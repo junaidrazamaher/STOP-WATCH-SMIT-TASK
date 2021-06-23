@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="main" class="my-5 mx-auto">
+        <h4 class="mt-2">Stop Watch</h4>
+        <div id="time" class="mb-3">
+            <div class="d-inline-block mx-1 fixesSize"><h1 id="min">00</h1></div>
+            <div class="d-inline-block mx-1 fixesSize"><h1 id="sec">00</h1></div>
+            <div class="d-inline-block mx-1 fixesSize"><h1 id="msec">00</h1></div>
+        </div>
+        <div>
+            <button class="btn btn-success" onclick="start()" id="startBtn">Start</button>
+            <button class="btn btn-success" onclick="pause()" id="pauseBtn">Pause</button>
+            <button class="btn btn-success" onclick="lap()" id="lapBtn">Lap</button>
+            <button class="btn btn-success" onclick="reset()" id="resetBtn">Reset</button>
+        </div>
+        <div id="data" class="mx-3 my-3 text-left"></div>
+    </div>
+</body>
+
+
+<script src="app.js"></script>
+</html>
